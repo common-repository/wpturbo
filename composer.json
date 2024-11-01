@@ -1,0 +1,27 @@
+{
+    "name": "wbolt/wpturbo",
+    "description": "wpturbo",
+    "type": "project",
+    "keywords": [
+        "wbolt",
+        "wpturbo",
+        "quan"
+    ],
+    "homepage": "https://www.wbolt.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "quan",
+            "email": "quanp@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "aliyuncs/oss-sdk-php": "~2.4",
+        "obs/esdk-obs-php": "~3.22",
+        "qcloud/cos-sdk-v5": ">=2.0",
+        "upyun/sdk": "^3.5",
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
